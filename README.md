@@ -1,1 +1,0 @@
-# qrgid.github.io

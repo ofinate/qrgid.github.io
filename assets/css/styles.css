@@ -1,0 +1,326 @@
+html{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    margin: 0px 0px 0px;
+    padding: 0px;
+    background-color: #f1f3f4;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+}
+.container1{
+    height: 140px;
+    width: 100%;
+    position: fixed;
+    background-color: #ff835d;
+    z-index: 100;
+}
+.topone{
+    position: relative;
+    z-index: 1000;
+}
+.main{
+    background-image: url("../img/mainbg.jpg");
+    width: 100%;
+    height: 960px;
+    margin:0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 200;
+    position: relative;
+
+}
+.question{
+    text-indent: 50px;
+    font-size: 54px;
+    font-weight: 500;
+    color:#ff8c62;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+.answer{
+    text-indent: 50px;
+    font-size: 54px;
+    font-weight: 500;
+    color:rgb(100, 100, 100);
+    margin-top: -5px;
+    margin-bottom: 0px;  
+    text-decoration: none;
+}
+.space{
+    height: 100px;
+}
+.topthing{
+    z-index: 100;
+    position: absolute;
+}
+body{
+    margin: 0px;
+}
+
+.logo{
+    margin:0px;
+    padding: 0px;
+    font-size: 79px;
+    font-weight: bold;
+    margin-left: 120px;
+    color: #e0ffff;
+    text-decoration: none;
+}
+.linkback{
+    text-decoration: none;
+}
+
+.logo{
+    margin:0px;
+    padding: 0px;
+    font-size: 79px;
+    font-weight: bold;
+    margin-left: 120px;
+    color: #e0ffff;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.logo:hover{
+    color: #c0e0e0;
+    transition: color 0.2s linear;
+}
+.header{
+    position: absolute;
+    top:0px;
+    margin:45px;
+    z-index: 100;
+
+}
+.header1{
+    position: absolute;
+    top:0px;
+    margin:45px;
+    nav-index:-2;
+
+}
+
+.buttons{
+    text-decoration:none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 00px 44px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #e0ffff;
+    transition: color .2s linear;
+    align-items: center;
+}
+
+.buttons:hover {
+    color: #c0e0e0;
+    transition: color 0.2s linear;
+}
+.logotypes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logotypes1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -30px;
+}
+.navigation{
+    align-items:right;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 450px
+}
+.hello{
+    font-weight:lighter;
+    text-align: center;
+    color: #e0ffff;
+    font-size: 130px;
+    margin-top: 43px;
+}
+.hellohand{
+    width: 10%;
+margin-top: 50px;
+align-self: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.bottom{
+    z-index: -2;
+}
+.grayline{
+    background-color: #c2c2c2;
+    width: 100%;
+    height: 120px;
+    z-index: -1000;
+}
+
+.main2{
+    background-image: url("../img/bg2.jpg");
+    width: 100%;
+    height:1080px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    font-size: 113px;
+    font-weight: 900;
+    text-align: center;
+    color: #ff8c62;
+    display: block;
+    margin-left:134px;
+    margin-right: auto;
+}
+.scpage{
+width: 100%;
+height: 100%;
+}
+.sctitle{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 240px;
+    margin-top: 90px
+
+}
+.qrlogo{
+    width: 292px;
+    height: 292px;
+}
+.text2{
+    text-indent: 50px;
+    font-size: 56px;
+    font-weight: 500;
+    color:#333;
+    margin-top: 400px;
+    padding-left: 225px;
+    padding-right: 180px;
+    margin-bottom: 0px;
+}
+br{
+    height:160px;
+}
+.text1{
+position: absolute;
+margin-top: 30px;
+
+}
+.hellohand1{
+    width: 120px;
+    height: 120px;
+margin-top: 10px;
+align-self: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.main3{
+    background-image: url("../img/bg3.jpg");
+    width: 100%;
+    height:1080px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title1{
+    font-size: 113px;
+    font-weight: 900;
+    text-align: center;
+    color: #ff8c62;
+    display: block;
+    margin-right:220px;
+}
+
+.sctitle1{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 730px;
+
+}
+.roundhr{
+    color:#333;
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    border-color: #333;
+    background-color: #333;
+}
+.line{
+    position: absolute;
+    width: 90%;
+    margin-left: 5%;
+    color:#333;
+    border-color: #333;
+    margin-top: -30px;
+}
+.text12{
+    position: absolute;
+}
+.spisok{
+    text-indent: 50px;
+    font-size: 54px;
+    font-weight: 500;
+    color:#333;
+    margin-top: -5px;
+    padding-left: 225px;
+    padding-right: 180px;
+    margin-bottom: 0px;
+}
+.spisok1{
+    text-indent: 50px;
+    font-size: 54px;
+    font-weight: 500;
+    color:#333;
+    margin-top: -216px;
+    padding-left: 1000px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+
+.containerbot{
+    background-color: #ff8c62;
+    width: 100%;
+    height: 200px;
+}
+.main4{
+width: 100%;
+height: 100%;
+}
+.bigimage{
+    width: 100%;
+    height: 90%;
+}
+.downtext{
+    font-size: 35px;
+    opacity: .5;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+.qrsmalllogo{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-left: 960px;
+    margin-top: -175px;
+    width: 100px;
+    height: 100px;
+}
+.faqheader{
+    background-color: #ff835d;
+    width: 100%;
+    height:140px;
+}
